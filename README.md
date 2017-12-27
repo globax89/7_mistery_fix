@@ -1,23 +1,26 @@
-# Решатель квадратных уравнений
+# Simple calculation of the quadratic equation
 
-[TODO. Здесь будет описание проекта]
+This script allows us to calculate the quadratic equation  of the form "a * x ** 2 + b * x + c = 0" easily.
 
-# Как использовать
-
-[TODO. Здесь будет описание программного интерфейса: функции, их аргументы, формат ответа. Нужен пример кода демонстрирующий импорт модуля и использование функции.]
-
-# Как запустить
-
-Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
-
-Запуск на Linux:
-
+# How to use
+Sample:
 ```bash
-python tests.py # может понадобиться вызов python3 вместо python, зависит от настроек операционной системы
+x1, x2 = get_roots(a=4, b=1, c=-1)
 ```
 
-Запуск на Windows происходит аналогично.
+# How to run
 
-# Цели проекта
+The script requires the installed Python interpreter version 3.5
+on Linux/Unix/Windows:
 
-Код создан в учебных целях. В рамках учебного курса по веб-разработке ― [DEVMAN.org](https://devman.org)
+```bash
+python3 tests.py 
+```
+
+# How to Launch Tests
+```bash
+python3 tests.py
+```
+# Project objectives
+
+The code was created for educational purposes. In the framework of the training course on web development - [DEVMAN.org](https://devman.org)
