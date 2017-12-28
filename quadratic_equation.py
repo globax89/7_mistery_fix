@@ -12,8 +12,3 @@ def get_roots(a, b, c):
             return root1, None
         else:
             return root1, root2
-
-
-if __name__ == "__main__":
-    root1, root2 = get_roots(a=4, b=1, c=-3)
-    print(root1, root2)
